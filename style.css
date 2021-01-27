@@ -16,30 +16,11 @@ body {
     color: #19192c;
     background-color: #e1e1f825;
 }
-body img {
-    width: 70%;
-    margin: auto;
-    display: none;
-    
-}
 
 @media (max-width: 991px) {
-    body {
-        grid-template-columns: 1fr;
-        grid-template-rows: minmax(110px, auto) minmax(200px, auto) 1fr;
-        background-position: 93% 55%;
-        background-image: none;
-    }
-
-    body img {
-        max-width: 100%;
-        display: unset; 
-    }
-
     .title{
         display: none;
     }
-
 }
 
 .hidden {
@@ -219,7 +200,10 @@ transition: all ease 0.3s;
     .content {
         padding: 2.4em;
         order: 1;
+    }
 
+    .sidebar {
+        padding: 0;
     }
 
     .content .main {
@@ -314,14 +298,14 @@ transition: all ease 0.3s;
 
 .copy {
     /* position: absolute; */
-    margin: 10px;
+    margin: 5px;
     /* float: right; */
 }
 
 @media (max-width: 991px) {
 .copy {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 }
 
@@ -459,3 +443,19 @@ button:hover .arrowPacman-clip {
     object-fit: cover;
     border-radius: 50%;
 }
+
+@media (max-width: 450px) {
+    .avater .circle {
+        width: 350px;
+        height: 350px;
+        
+    }
+    .avater .circle>.circle {
+        width: 260px;
+        height: 260px;
+    }
+        .avater .circle>.circle>img {
+            width: 180px;
+            height: 180px;
+        }
+    }
