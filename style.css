@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    height: 100%;
+    height: 100vh;
     min-height: 100vh;
     overflow-x: hidden;
     line-height: 1.5;
@@ -428,8 +428,8 @@ button:hover .arrowPacman-clip {
     align-items: center;
     box-sizing: border-box;
     background-color: #F7DCE2;
-    width: 30em;
-    height: 30em;
+    width: 31em;
+    height: 31em;
     border-radius: 50%;
 }
 
@@ -446,8 +446,8 @@ button:hover .arrowPacman-clip {
 
 @media (max-width: 450px) {
     .avater .circle {
-        width: 260px;
-        height: 260px;
+        width: 240px;
+        height: 240px;
         
     }
     .avater .circle>.circle {
@@ -457,5 +457,6 @@ button:hover .arrowPacman-clip {
     .avater .circle > .circle > img {
         width: 140px;
         height: 140px;
+        object-fit: cover;
     }
     }
