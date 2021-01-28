@@ -448,7 +448,6 @@ button:hover .arrowPacman-clip {
     .avater .circle {
         width: 240px;
         height: 240px;
-        
     }
     .avater .circle>.circle {
         width: 190px;
@@ -457,6 +456,6 @@ button:hover .arrowPacman-clip {
     .avater .circle > .circle > img {
         width: 140px;
         height: 140px;
-        object-fit: cover;
+
     }
     }
