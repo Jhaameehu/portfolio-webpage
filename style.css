@@ -9,7 +9,7 @@
 body {
     margin: 0;
     height: 100%;
-    /* min-height: 100%; */
+    min-height: 100vh;
     overflow-x: hidden;
     line-height: 1.5;
     font: 400 62.5% "Montserrat", sans-serif;
@@ -446,16 +446,16 @@ button:hover .arrowPacman-clip {
 
 @media (max-width: 450px) {
     .avater .circle {
-        width: 350px;
-        height: 350px;
+        width: 260px;
+        height: 260px;
         
     }
     .avater .circle>.circle {
-        width: 260px;
-        height: 260px;
+        width: 190px;
+        height: 190px;
     }
-        .avater .circle>.circle>img {
-            width: 180px;
-            height: 180px;
-        }
+    .avater .circle > .circle > img {
+        width: 140px;
+        height: 140px;
+    }
     }
