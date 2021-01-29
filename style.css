@@ -303,13 +303,13 @@ transition: all ease 0.3s;
 .copy {
     /* position: absolute; */
     padding: 10px;
-    float: right;
+    /* float: right; */
 }
 
 @media (max-width: 991px) {
 .copy {
     text-align: center;
-    /* margin: 0px; */
+    margin: auto;
 }
 }
 
