@@ -8,8 +8,8 @@
 
 body {
     margin: 0;
-    height: 100vh;
-    min-height: 100vh;
+    height: 100%;
+    min-height: 100%;
     overflow-x: hidden;
     line-height: 1.5;
     font: 400 62.5% "Montserrat", sans-serif;
@@ -86,8 +86,12 @@ body {
     font-weight: 500;
     font-size: 0.8rem;
 }
+
+.projects ul li span {
+    margin-left: 10px;
+}
 .projects li a{
-    color: #bd0505;
+    color: #aa0404;
 }
 .projects li a:hover {
     color: #f00;
@@ -298,14 +302,14 @@ transition: all ease 0.3s;
 
 .copy {
     /* position: absolute; */
-    margin: 5px;
+    padding: 10px;
     /* float: right; */
 }
 
 @media (max-width: 991px) {
 .copy {
     text-align: center;
-    margin: 10px;
+    /* margin: 0px; */
 }
 }
 
