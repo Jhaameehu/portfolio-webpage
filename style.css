@@ -10,7 +10,8 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
-
+    max-width: 1300px;
+    margin: auto;
     min-height: 100%;
     overflow-x: hidden;
     line-height: 1.5;
@@ -125,7 +126,7 @@ body {
 }
 
 .social ul li a:hover {
-    color: #f00;
+    color: #aa0404;
     transform: scale(0.95);
 }
 
@@ -183,6 +184,7 @@ body {
     align-items: flex-start;
     font-size: 1rem;
     float: left;
+    line-height: 1.5;
 }
 
 .wrapper {
@@ -309,9 +311,8 @@ body {
 }
 
 .copy {
-    /* position: absolute; */
     padding: 10px;
-    /* float: right; */
+    text-align: center;
 }
 
 @media (max-width: 991px) {
